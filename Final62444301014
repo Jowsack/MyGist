@@ -89,7 +89,7 @@ contract xxxToken is ERC20Interface, SafeMath {
         decimals = 6;   
         _totalSupply = 10000000;  
         balances[0x4759dD68A2FBab68F5f4666fE63014dA496E3490] = _totalSupply;
-        emit Transfer(address(0),0xCA6c01778b9Cf454370725E743cFa6c74BE10ce5, _totalSupply);
+        emit Transfer(address(0),0x4759dD68A2FBab68F5f4666fE63014dA496E3490, _totalSupply);
     }
 
 
